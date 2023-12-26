@@ -1,0 +1,12 @@
+[workspace]
+resolver="2"
+members = [
+    "osk-json-lib",
+    "bin"
+]
+
+[workspace.package]
+version = "0.1.0"
+
+[workspace.dependencies]
+json = "0.12.4"
